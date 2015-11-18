@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E643C5131BFC5A140001090B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E643C5121BFC5A140001090B /* README.md */; };
 		E6B0BC271BDFD43900508692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0BC261BDFD43900508692 /* AppDelegate.swift */; };
 		E6B0BC291BDFD43900508692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0BC281BDFD43900508692 /* ViewController.swift */; };
 		E6B0BC2C1BDFD43900508692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B0BC2A1BDFD43900508692 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E643C5121BFC5A140001090B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E6B0BC231BDFD43900508692 /* SuperCool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B0BC261BDFD43900508692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6B0BC281BDFD43900508692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		E6B0BC1A1BDFD43900508692 = {
 			isa = PBXGroup;
 			children = (
+				E643C5121BFC5A140001090B /* README.md */,
 				E6B0BC251BDFD43900508692 /* SuperCool */,
 				E6B0BC3A1BDFD43900508692 /* SuperCoolTests */,
 				E6B0BC451BDFD43900508692 /* SuperCoolUITests */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E643C5131BFC5A140001090B /* README.md in Sources */,
 				E6B0BC291BDFD43900508692 /* ViewController.swift in Sources */,
 				E6B0BC271BDFD43900508692 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +486,7 @@
 				E6B0BC4D1BDFD43900508692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6B0BC4E1BDFD43900508692 /* Build configuration list for PBXNativeTarget "SuperCoolTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				E6B0BC501BDFD43900508692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6B0BC511BDFD43900508692 /* Build configuration list for PBXNativeTarget "SuperCoolUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				E6B0BC531BDFD43900508692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
