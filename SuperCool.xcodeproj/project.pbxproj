@@ -15,6 +15,7 @@
 		E6B0BC311BDFD43900508692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B0BC2F1BDFD43900508692 /* LaunchScreen.storyboard */; };
 		E6B0BC3C1BDFD43900508692 /* SuperCoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0BC3B1BDFD43900508692 /* SuperCoolTests.swift */; };
 		E6B0BC471BDFD43900508692 /* SuperCoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0BC461BDFD43900508692 /* SuperCoolUITests.swift */; };
+		E6BB98ED1BFC7C630004869D /* warmup in Resources */ = {isa = PBXBuildFile; fileRef = E6BB98EC1BFC7C630004869D /* warmup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		E6B0BC421BDFD43900508692 /* SuperCoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B0BC461BDFD43900508692 /* SuperCoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCoolUITests.swift; sourceTree = "<group>"; };
 		E6B0BC481BDFD43900508692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BB98EB1BFC7C630004869D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		E6BB98EC1BFC7C630004869D /* warmup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = warmup; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		E6B0BC1A1BDFD43900508692 = {
 			isa = PBXGroup;
 			children = (
+				E6BB98EB1BFC7C630004869D /* MyPlayground.playground */,
+				E6BB98EC1BFC7C630004869D /* warmup */,
 				E643C5121BFC5A140001090B /* README.md */,
 				E6B0BC251BDFD43900508692 /* SuperCool */,
 				E6B0BC3A1BDFD43900508692 /* SuperCoolTests */,
@@ -234,6 +239,7 @@
 			files = (
 				E6B0BC311BDFD43900508692 /* LaunchScreen.storyboard in Resources */,
 				E6B0BC2E1BDFD43900508692 /* Assets.xcassets in Resources */,
+				E6BB98ED1BFC7C630004869D /* warmup in Resources */,
 				E6B0BC2C1BDFD43900508692 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
