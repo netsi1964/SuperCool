@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var TwitterLogo: UIImageView!
+    @IBOutlet weak var uncoolButton: UIButton!
+    @IBOutlet weak var bil: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func makeMeNotSoUncool(sender: AnyObject) {
+        bil.hidden = false
+        TwitterLogo.hidden = false
+        uncoolButton.hidden = true
+    }
 
 }
 
